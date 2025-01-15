@@ -44,5 +44,5 @@ A blogging platform where users can share their travel experiences, explore post
 
 1. **Clone the Repository:**
    ```bash
-   git clone https://github.com/yourusername/explore-blog.git
+   git clone "https://github.com/Kawshik4444a/travel-blogger-app.git"
    cd explore-blog
