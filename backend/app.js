@@ -7,7 +7,7 @@ const dotenv=require("dotenv").config()
 const connectDb=require("./db/config.js")
 const PORT=process.env.PORT||6000
 app.use(cors({
-    origin: "http://localhost:5173", 
+    origin: "https://statuesque-froyo-cf4ea9.netlify.app/", 
     methods: ["GET", "POST", "PUT", "DELETE"],
     credentials: true,
 }));
