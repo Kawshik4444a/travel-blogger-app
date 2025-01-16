@@ -9,7 +9,7 @@ const Profile = () => {
   useEffect(() => {
     const fetchProfile = async () => {
       try {
-        const response = await axios.get("http://localhost:8080/api/app/profiles", {
+        const response = await axios.get("https://travel-blogger-app.onrender.com/api/app/profiles", {
           headers: {
             Authorization: `Bearer ${localStorage.getItem("accessToken")}`,
           },

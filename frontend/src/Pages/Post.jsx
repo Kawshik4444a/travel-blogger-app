@@ -30,7 +30,7 @@ const Post = () => {
     data.append("image", image);
 
     try {
-      const response = await axios.post("http://localhost:8080/api/app/post", data, {
+      const response = await axios.post("https://travel-blogger-app.onrender.com/api/app/post", data, {
         headers: {
           "Content-Type": "multipart/form-data",
           Authorization: `Bearer ${localStorage.getItem("accessToken")}`,

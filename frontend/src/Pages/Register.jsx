@@ -16,7 +16,7 @@ const Register = () => {
     e.preventDefault();
 
     try {
-      const response = await axios.post("http://localhost:8080/api/app/register", form);
+      const response = await axios.post("https://travel-blogger-app.onrender.com/api/app/register", form);
       setMessage(response?.data?.message);
       navigate("/login");
       console.log(response.data); // Handle the response as needed

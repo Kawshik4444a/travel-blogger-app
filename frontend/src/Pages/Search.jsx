@@ -16,7 +16,7 @@ const Search = () => {
 
     try {
       const response = await axios.get(
-        `http://localhost:8080/api/app/search?location=${searchTerm}`,
+        `https://travel-blogger-app.onrender.com/api/app/search?location=${searchTerm}`,
         {
           headers: {
             Authorization: `Bearer ${localStorage.getItem("accessToken")}`,

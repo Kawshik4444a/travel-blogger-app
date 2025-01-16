@@ -15,7 +15,7 @@ const Login = () => {
     e.preventDefault();
 
     try {
-      const response = await axios.post("http://localhost:8080/api/app/login", {
+      const response = await axios.post("https://travel-blogger-app.onrender.com/api/app/login", {
         email: formData.email,
         password: formData.password,
       });

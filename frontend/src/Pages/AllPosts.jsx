@@ -8,7 +8,7 @@ const AllPosts = () => {
   useEffect(() => {
     const fetchPosts = async () => {
       try {
-        const response = await axios.get("http://localhost:8080/api/app/allpost", {
+        const response = await axios.get("https://travel-blogger-app.onrender.com/api/app/allpost", {
           headers: {
             Authorization: `Bearer ${localStorage.getItem("accessToken")}`, // Include token if needed
           },
